@@ -23,5 +23,4 @@ const logClick = () => {
     .catch((err) => console.log(err))
 };
 
-
 getResidents.addEventListener(`click`, logClick);

@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050__340.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    color: gold;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+div {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+button {
+    width: 250px;
+    height: 100px;
+    background-color: transparent;
+    color: gold;
+    font-size: x-large;
+    border-style: groove;
+    border-color: gold;
+    border-width: 8px;
+    margin: 0 auto;
+}
+
+h2 {
+    width: 100%;
+    height: 100px;
+    color: gold;
+    font-size: xx-large;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(1.05);
+}
